@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
+    "heroku-prebuild": "npm install",
     "start": "node index.js"
   },
   "author": "Itallo Castro",
