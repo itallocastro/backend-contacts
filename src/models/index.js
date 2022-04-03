@@ -10,7 +10,7 @@ const db = {}
 let sequelize
 if(config.url) {
     sequelize = new Sequelize(
-        ...config
+        config.url
     )
 }
 else {
