@@ -157,6 +157,7 @@ exports.getAllListPerson = async (req, res) => {
         })
         return res.status(200).send(persons)
     } catch (e) {
+        console.log(e)
         return res.status(406).send({error: 'Error occurred'})
     }
 }
