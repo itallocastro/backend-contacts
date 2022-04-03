@@ -8,8 +8,13 @@ if(process.env.DATABASE_URL) {
         define: {
             timestamps: true
         },
-        ssl: { rejectUnauthorized: false },
         dialect: process.env.DB_DIALECT || 'postgres',
+        dialectOptions: {
+            ssl: {
+                require: true,
+                rejectUnauthorized: false
+            }
+        }
     }
 } else {
     module.exports = {
