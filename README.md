@@ -1,4 +1,4 @@
-# Frontend Test Bravi
+# Backend Test Bravi
 
 ## Execução via heroku
 
@@ -30,6 +30,7 @@ Você deve clonar o repositório `git clone https://github.com/itallocastro/test
 <br>
 Depois você deve acessar a pasta do projeto e rodar: `npm install`
 Você deve criar um arquivo .env dentro do projeto com os seguintes campos que você irá definir:
+<br>
 ```
 PORT=
 HOST_DB=
