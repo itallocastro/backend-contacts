@@ -23,8 +23,8 @@ O teste está hospedado na heroku e pode ser acessado por esse link: https://fro
 ### Requisitos:
 - Node version: 12.x.x
 - Postgres
-<br>
-<br>
+
+
 Você deve clonar o repositório `git clone https://github.com/itallocastro/test-bravi-backend.git`
 <br>
 <br>
