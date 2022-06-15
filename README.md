@@ -5,7 +5,7 @@
 O teste está hospedado na heroku e pode ser acessado por esse link: https://frontend-test-bravi.herokuapp.com/
 
 ## Rodar via docker
-  Você deve clonar o repositório `git clone https://github.com/itallocastro/test-bravi-backend.git`
+  Você deve clonar o repositório `git clone https://github.com/itallocastro/backend-contacts.git`
   <br>
   <br>
   Depois você deve acessar a pasta do projeto e rodar: `docker-compose up`
